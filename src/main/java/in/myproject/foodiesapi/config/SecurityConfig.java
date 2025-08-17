@@ -55,7 +55,7 @@ public class SecurityConfig {
 
     private UrlBasedCorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(List.of("https://ornate-rugelach-bf6761.netlify.app/" , "https://harmonious-mooncake-7144fc.netlify.app/"));
+        config.setAllowedOrigins(List.of("https://elegant-panda-9eb873.netlify.app/" , "https://deft-madeleine-966858.netlify.app/"));
         config.setAllowedMethods(List.of("GET" , "POST" , "PUT" , "DELETE" , "OPTIONS" , "PATCH"));
         config.setAllowedHeaders(List.of("Authorization" ,"Content-Type"));
         config.setAllowCredentials(true);
